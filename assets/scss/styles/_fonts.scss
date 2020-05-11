@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "KeepCalm-Medium";
+    src: url("../fonts/keep-calm/KeepCalm-Medium.eot");
+    src: url("../fonts/keep-calm/KeepCalm-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/keep-calm/KeepCalm-Medium.otf") format("opentype"),
+      url("../fonts/keep-calm/KeepCalm-Medium.svg") format("svg"),
+      url("../fonts/keep-calm/KeepCalm-Medium.ttf") format("truetype"),
+      url("../fonts/keep-calm/KeepCalm-Medium.woff") format("woff"),
+      url("../fonts/keep-calm/KeepCalm-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+@font-face {
+    font-family: "Keep Calm W01 Light";
+    src: url("../fonts/keep-calm-light/Keep-Calm-W01-Light.eot");
+    src: url("../fonts/keep-calm-light/Keep-Calm-W01-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/keep-calm-light/Keep-Calm-W01-Light.woff2") format("woff2"),
+    url("../fonts/keep-calm-light/Keep-Calm-W01-Light.woff") format("woff"),
+    url("../fonts/keep-calm-light/Keep-Calm-W01-Light.ttf") format("truetype"),
+    url("../fonts/keep-calm-light/Keep-Calm-W01-Light.svg#Keep Calm W01 Light") format("svg");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.eot');
+    src: local('Oswald Bold'), local('Oswald-Bold'),
+        url('../fonts/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff'),
+        url('../fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+**/

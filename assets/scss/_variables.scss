@@ -1,0 +1,66 @@
+// Define Theme Colors
+$theme-accent:          #87c4e9;
+$theme-secondary:       #d4e1d3;
+
+$accent-100:            #9cc2f7;
+$accent-200:            #7fb3f2;
+
+$danger:                #f86168;
+$success:               #3dca93;
+
+$bg-accent:             $theme-accent;
+$bg-accent-light:       #87c4e9;
+$bg-accent-dark:        #3a5937;
+
+//@themeBG
+$bg-light:              #ffffff;
+$bg-lighter:            #ffffff;
+
+$bg-dark:               #151c2e;
+
+// Base Color
+$base-text:             #abdda7;
+$base-color:            #87c4e9;
+$base-medium:           #87c4e9;
+$base-dark:             #3a5937;
+$base-light:            #abdda7;
+$base-lighter:          #cfe6cd;
+$white:                 #fff;
+
+// Border Colors
+$border-color:          #e7e8ff;
+$border-light:          rgba(#f7f8ff,.1);
+
+$base-font:             'Open Sans', sans-serif;
+$base-font-alt:         'KeepCalm-Medium', sans-serif;
+
+$nioicon:               $icomoon-font-family;
+
+$base-font-size:        16px;
+$base-line-height:      1.6;
+$base-font-weight:      300;
+
+$base-fw-lt: 			300;
+$base-fw-rg: 			400;
+$base-fw-md: 			500;
+$base-fw-bold: 			700;
+
+$base-fw-strong: 		$base-fw-md;
+
+$heading-font:          $base-font-alt;
+$heading-font-weight:   $base-fw-bold;
+
+// Text Color Default
+$text-color:            $base-color;
+$text-color-alt:        $base-light;
+$text-dark:             $base-dark;
+$text-light:            $base-light;
+$text-primary:          $theme-accent;
+$text-secondary:        $theme-secondary;
+$text-light-alt:        $base-lighter;
+
+$heading-color:         $base-color;
+$heading-color-alt:     $theme-accent;
+$heading-dark:          $base-dark;
+$heading-light:         $base-light;
+$heading-color-revert:	#fff;

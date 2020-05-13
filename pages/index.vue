@@ -1,6 +1,7 @@
 <template>
     <div>
         <MainHero />
+        <Goals />
         <WhatWeDo />
         <ValuesContainer />
         <Facts />
@@ -16,6 +17,7 @@ import ValuesContainer from '@/components/valuesContainer'
 import Facts from '@/components/facts'
 import Manifest from '@/components/manifest'
 import Contact from '@/components/contact'
+import Goals from '@/components/goals'
 export default {
     components: {
         MainHero,
@@ -23,7 +25,8 @@ export default {
         ValuesContainer,
         Facts,
         Manifest,
-        Contact
+        Contact,
+        Goals
     }
 }
 </script>

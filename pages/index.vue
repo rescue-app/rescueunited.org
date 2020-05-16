@@ -2,7 +2,7 @@
     <div>
         <MainHero />
         <Goals />
-        <WhatWeDo />
+        <AboutUs />
         <ValuesContainer />
         <Facts />
         <Manifest />
@@ -12,7 +12,7 @@
 
 <script>
 import MainHero from '@/components/mainHero'
-import WhatWeDo from '@/components/whatWeDo'
+import AboutUs from '@/components/aboutUs'
 import ValuesContainer from '@/components/valuesContainer'
 import Facts from '@/components/facts'
 import Manifest from '@/components/manifest'
@@ -21,7 +21,7 @@ import Goals from '@/components/goals'
 export default {
     components: {
         MainHero,
-        WhatWeDo,
+        AboutUs,
         ValuesContainer,
         Facts,
         Manifest,

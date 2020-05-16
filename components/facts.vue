@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="nk-banner-block">
-                        <h3 class="text-center pb-4 pb-sm-0">Gracias a ti estamos pudiendo ayudar donde más lo necesitan 🥰</h3>
+                        <h3 class="text-center pb-4 pb-sm-0 text-white">Thousands helped. Thank¡ you! 🥰</h3>
                     </div>
                 </div>
 

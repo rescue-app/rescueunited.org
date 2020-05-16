@@ -4,9 +4,9 @@
             <div class="row align-items-center justify-content-between">
                 <b-col>
                     <div class="nk-banner-block">
-                        <div class="content mt-2 mt-sm-0">
-                            <h1>Rescue app</h1>
-                            <p>Centralización y emparejamiento de la oferta y la demanda de recursos sanitarios </p>
+                        <div class="content mt-2 mt-sm-0 tc-light">
+                            <h1>Rescue United</h1>
+                            <p>Non-profit incubator and accelerator, where professionals can donate their talent remotely </p>
                         </div>
                     </div>
                 </b-col>

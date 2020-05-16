@@ -1,11 +1,10 @@
 <template>
-    <section class="section section-l bg-light section-protect pb-0" id="queHacemos">
+    <section class="section section-l bg-light section-protect pb-0" id="aboutUs">
         <div class="section-head text-center wide-lg">
-            <h5 class="subtitle">Sobre nosotros</h5>
-            <h2 class="title">¿Qué hacemos?</h2>
+            <h5 class="subtitle">What do we do?</h5>
+            <h2 class="title">About us</h2>
             <p>
-                Nuestra misión principal es atender la creciente necesidad de recursos sanitarios.
-                Lo hacemos mediante la centralización de la oferta y la demanda y así hacer el emparejamiento más óptimo.
+                We are a non-profit organization that aims to connect professionals with charitable institutions, where their skills can positively impact the world.
             </p>
         </div>
         <InfographicSection />

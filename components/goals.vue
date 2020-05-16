@@ -1,8 +1,8 @@
 <template>
-    <section class="section section-l bg-light text-center">
+    <section class="section section-l pt-5 pb-5 bg-light text-center" id="theChallenge">
         <div class="section-head text-center wide-lg pb-0">
-            <h5 class="subtitle">Something to aim at</h5>
-            <h2 class="title">Sustainable Development Goals</h2>
+            <h5 class="subtitle">Sustainable Development Goals</h5>
+            <h2 class="title">The challenge</h2>
         </div>
         <div id="goal-list">
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/sdgsfirst.png" alt="Goal"></div></nuxt-link>
@@ -43,6 +43,7 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .goalbox {

@@ -7,7 +7,7 @@
                     <div class="col-lg-3 col-md-9 mr-auto">
                         <div class="wgs wgs-about">
                             <div class="wgs-about-text">
-                                <p>Con el apoyo de <a href="http://www.stopcorona.es/" class="text-white font-weight-bold" target="_blank">#StopCorona</a></p>
+                                <p>#andyou</p>
                             </div>
                             <ul class="wgs-social">
                                 <li><a href="mailto:info@Rescueunited.org"><em class="icon ni ni-mail-fill"></em></a></li>
@@ -23,8 +23,8 @@
                         <div class="col">
                             <p class="nk-copyright">
                                 &copy; 2020 Rescueunited.org
-                                &nbsp;|&nbsp;<nuxt-link to="/aviso-legal">Aviso Legal</nuxt-link>
-                                &nbsp;|&nbsp;<nuxt-link to="/politica-de-cookies">Política de cookies</nuxt-link>
+                                &nbsp;|&nbsp;<nuxt-link to="/aviso-legal">Legal disclaimer</nuxt-link>
+                                &nbsp;|&nbsp;<nuxt-link to="/politica-de-cookies">Cookie policy</nuxt-link>
                             </p>
                         </div>
                     </div>

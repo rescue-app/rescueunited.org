@@ -9,7 +9,7 @@
                             <h5 class="subtitle">¿CÓMO PUEDO COLABORAR O PEDIR AYUDA?</h5>
                             <h2 class="title">PARTICIPA</h2>
                             <p class="lead">En Rescue app, buscamos centralizar los recursos, <strong>creando un repositorio único de con la información sobre las necesidades de cada centro hospitalario, residencia de mayores y de asistencia a particulares.</strong></p>
-                            <p>A continuación puedes participar en el proyecto, por favor sigue los pasos indicados y nos pondremos en contacto contigo lo antes posible para darte una solución</p>
+                            <p>A continuación puedes participate en el proyecto, por favor sigue los pasos indicados y nos pondremos en contacto contigo lo antes posible para darte una solución</p>
                             <custom-form></custom-form>
                             <!--<Typeform-->
                             <!--class="w-100 mb-3"-->

@@ -9,13 +9,14 @@
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item to="/#mainHero" @click="scrollTo('#mainHero')">Home</b-nav-item>
-                        <b-nav-item to="/#queHacemos" @click="scrollTo('#queHacemos')">¿Qué hacemos?</b-nav-item>
-                        <b-nav-item to="/#valores" @click="scrollTo('#valores')">Valores</b-nav-item>
-                        <b-nav-item to="/#quienesSomos" @click="scrollTo('#quienesSomos')">¿Quienes somos?</b-nav-item>
-                        <b-nav-item to="/#contacto" @click="scrollTo('#contacto')">Contacto</b-nav-item>
-                        <b-button squared class="d-none d-lg-block ml-lg-3" to="/participar" @click="removeActiveClass">Participar</b-button>
-                        <b-nav-item class="d-lg-none" to="/participar" @click="removeActiveClass">
-                            <span class="font-weight-bold text-success">Participar</span>
+                        <b-nav-item to="/#theChallenge" @click="scrollTo('#theChallenge')">The challenge</b-nav-item>
+                        <b-nav-item to="/#aboutUs" @click="scrollTo('#aboutUs')">About us</b-nav-item>
+                        <b-nav-item to="/#values" @click="scrollTo('#values')">Values</b-nav-item>
+                        <b-nav-item to="/#whoAreWe" @click="scrollTo('#whoAreWe')">¿Who are we?</b-nav-item>
+                        <b-nav-item to="/#contact" @click="scrollTo('#contact')">Contact</b-nav-item>
+                        <b-button squared class="d-none d-lg-block ml-lg-3" to="/participate" @click="removeActiveClass">Participate</b-button>
+                        <b-nav-item class="d-lg-none" to="/participate" @click="removeActiveClass">
+                            <span class="font-weight-bold text-success">Participate</span>
                         </b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>

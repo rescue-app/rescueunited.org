@@ -1,9 +1,9 @@
 <template>
-    <section class="section section-l bg-light section-blog" id="contacto">
+    <section class="section section-l bg-light section-blog" id="contact">
         <div class="container">
             <div class="section-head text-center wide-lg">
-                <h5 class="subtitle">Contacto</h5>
-                <h2 class="title">Encuéntranos</h2>
+                <h5 class="subtitle">Contact</h5>
+                <h2 class="title">Find us</h2>
             </div>
             <div class="section-content">
                 <div class="row g-gs justify-content-center">

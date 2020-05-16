@@ -9,8 +9,8 @@
                             <h2>Talent in action for a purpose</h2>
                             <p>Non-profit incubator and accelerator, where professionals can donate their talent remotely</p>
                             <p>
-                                <b-button class="d-md-none" block squared to="/participar">Participar</b-button>
-                                <b-button class="d-none d-md-inline" squared size="lg" to="/participar">Participar</b-button>
+                                <b-button class="d-md-none" block squared to="/participate">Participate</b-button>
+                                <b-button class="d-none d-md-inline" squared size="lg" to="/participate">Participate</b-button>
                             </p>
                             <p class="mt-4 ds-wrapper">
                                 #andyou

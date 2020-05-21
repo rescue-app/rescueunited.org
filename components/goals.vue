@@ -11,7 +11,7 @@
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-03.jpg" alt="Goal"><div class="goaltext" style="background: #4ca146">Ensure healthy lives and promote well-being for all at all ages</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-04.jpg" alt="Goal"><div class="goaltext" style="background: #c7212f">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-05.jpg" alt="Goal"><div class="goaltext" style="background: #f0402d">Achieve gender equality and empower all women and girls</div></div></nuxt-link>
-            <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-06.jpg" alt="Goal"><div class="goaltext" style="background: #f0402d">Ensure availability and sustainable management of water and sanitation for all</div></div></nuxt-link>
+            <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-06.jpg" alt="Goal"><div class="goaltext" style="background: #28bfe6">Ensure availability and sustainable management of water and sanitation for all</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-07.jpg" alt="Goal"><div class="goaltext" style="background: #fcc413">Ensure access to affordable, reliable, sustainable and modern energy for all</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-08.jpg" alt="Goal"><div class="goaltext" style="background: #a31d44">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-09.jpg" alt="Goal"><div class="goaltext" style="background: #f26a2f">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</div></div></nuxt-link>
@@ -23,7 +23,20 @@
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-15.jpg" alt="Goal"><div class="goaltext" style="background: #59ba47">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and biodiversity loss</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-16.jpg" alt="Goal"><div class="goaltext" style="background: #126a9f">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-17.jpg" alt="Goal"><div class="goaltext" style="background: #14496a">Strengthen the means of implementation and revitalize the global partnership for sustainable development</div></div></nuxt-link>
+        </div>
+        <div id="explainer"  class="pt-3">
+            <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future.</p>
+            <p>At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries in a global partnership.</p>
             
+            <h4 class="pt-2">The SDGs will stimulate action over the next years in areas of critical importance for humanity and the planet:</h4>
+            <h5>People</h5>
+            <p>            We are determined to end poverty and hunger, in all their forms and dimensions, and to ensure that all human beings can fulfil their potential in dignity and equality and in a healthy environment.</p>
+            <h5>Planet</h5>
+            <p>            We are determined to protect the planet from degradation, including through sustainable consumption and production, sustainably managing its natural resources and taking urgent action on climate change, so that it can support the needs of the present and future generations.</p>
+            <h5>Prosperity</h5>
+            <p>            We are determined to ensure that all human beings can enjoy prosperous and fulfilling lives and that economic, social and technological progress occurs in harmony with nature.</p>
+            <h5>Peace</h5>
+            <p>            We are determined to foster peaceful, just and inclusive societies which are free from fear and violence. There can be no sustainable development without peace and no peace without sustainable development.</p>
         </div>
     </section>
 </template>
@@ -67,5 +80,22 @@ export default {
     color: white;
     height: 131px;
     width: 131px;
+}
+
+#explainer {
+    text-align: left;
+    max-width: 65em;
+    font-size: .8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#explainer h4 {
+    font-size: 1.4em;
+}
+
+#explainer h5 {
+    font-size: 1.2em;
+    color: inherit;
 }
 </style>

@@ -5,15 +5,15 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'RescueUnited: Non-profit incubator and accelerator, where professionals can donate their talent remotely',
+        title: 'RescueUnited: Non-profit project incubator and accelerator, where professionals can donate their talent remotely',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Non-profit incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'description', name: 'description', content: 'Non-profit project incubator and accelerator, where professionals can donate their talent remotely' },
             { hid: 'og_locale', property: 'og:locale', content: 'es_ES' },
             { hid: 'og_type', property: 'og:type', content: 'Website' },
             { hid: 'og_title', property: 'og:title', content: 'RescueUnited' },
-            { hid: 'og_description', property: 'og:description', content: 'Non-profit incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'og_description', property: 'og:description', content: 'Non-profit project incubator and accelerator, where professionals can donate their talent remotely' },
             { hid: 'og_url', property: 'og:url', content: 'https://Rescueunited.org' }
         ],
         link: [

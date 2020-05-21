@@ -6,9 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _74bbdb90 = () => interopDefault(import('../pages/aviso-legal.vue' /* webpackChunkName: "pages/aviso-legal" */))
 const _d07d415c = () => interopDefault(import('../pages/cubrir-necesidad.vue' /* webpackChunkName: "pages/cubrir-necesidad" */))
 const _151df2bc = () => interopDefault(import('../pages/gracias.vue' /* webpackChunkName: "pages/gracias" */))
-const _4257c392 = () => interopDefault(import('../pages/participate.vue' /* webpackChunkName: "pages/participate" */))
 const _e9d80e96 = () => interopDefault(import('../pages/politica-de-cookies.vue' /* webpackChunkName: "pages/politica-de-cookies" */))
 const _fd143932 = () => interopDefault(import('../pages/solicitar-ayuda.vue' /* webpackChunkName: "pages/solicitar-ayuda" */))
+const _6b5b2214 = () => interopDefault(import('../pages/volunteering.vue' /* webpackChunkName: "pages/volunteering" */))
 const _d21eb0f4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -40,10 +40,6 @@ export const routerOptions = {
     component: _151df2bc,
     name: "gracias"
   }, {
-    path: "/participate",
-    component: _4257c392,
-    name: "participate"
-  }, {
     path: "/politica-de-cookies",
     component: _e9d80e96,
     name: "politica-de-cookies"
@@ -51,6 +47,10 @@ export const routerOptions = {
     path: "/solicitar-ayuda",
     component: _fd143932,
     name: "solicitar-ayuda"
+  }, {
+    path: "/volunteering",
+    component: _6b5b2214,
+    name: "volunteering"
   }, {
     path: "/",
     component: _d21eb0f4,

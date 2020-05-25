@@ -1,5 +1,5 @@
 <template>
-    <section class="section section-l bg-light section-advice pb-4 pt-4 ov-h" id="values">
+    <section class="section section-l bg-light section-advice pb-4 pt-5 ov-h" id="values">
         <div class="container">
             <div class="section-head text-center wide-lg">
                 <h5 class="subtitle">Our values</h5>
@@ -18,7 +18,7 @@
                             <div class="box3-content">
                                 <h5 class="title">Solidarity</h5>
                                 <p>
-                                    Support the entities that have tmajor impact, helping the most vulnerable.
+                                    Unity of feeling or action.
                                 </p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                             <div class="box3-content">
                                 <h5 class="title">Impact</h5>
                                 <p>
-                                    Intense effect in the life of people who need it.
+                                    Ability to effect change.
                                 </p>
                             </div>
                         </div>
@@ -61,9 +61,9 @@
                                 <img src="~/assets/images/gfx/advice-d.jpg" alt="" />
                             </div>
                             <div class="box3-content">
-                                <h5 class="title">Team work</h5>
+                                <h5 class="title">Teamwork</h5>
                                 <p>
-                                    Diversity with an objective.
+                                    Diversity with a common goal.
                                 </p>
                             </div>
                         </div>

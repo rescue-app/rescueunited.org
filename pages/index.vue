@@ -1,10 +1,11 @@
 <template>
     <div>
         <MainHero />
+        <HomeProjectSearch />
         <Goals />
         <AboutUs />
-        <ValuesContainer />
         <Facts />
+        <ValuesContainer />
         <Manifest />
         <Contact />
     </div>
@@ -12,6 +13,7 @@
 
 <script>
 import MainHero from '@/components/mainHero'
+import HomeProjectSearch from '@/components/homeProjectSearch'
 import AboutUs from '@/components/aboutUs'
 import ValuesContainer from '@/components/valuesContainer'
 import Facts from '@/components/facts'
@@ -21,6 +23,7 @@ import Goals from '@/components/goals'
 export default {
     components: {
         MainHero,
+        HomeProjectSearch,
         AboutUs,
         ValuesContainer,
         Facts,

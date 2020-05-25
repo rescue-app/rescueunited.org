@@ -15,7 +15,7 @@
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="mailto:info@Rescueunited.org">Email</a></h5>
+                                <h5 class="title"><a href="mailto:info@rescueunited.org">Email</a></h5>
                                 <p>Si el formulario no cubre tu necesidad, encuentras algún problema o cualquier otra cosa extraña!</p>
                             </div>
                         </div>
@@ -23,12 +23,12 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="https://www.instagram.com/rescue_app/">
+                                <a href="https://www.instagram.com/rescue_united/">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/instagram.png" alt="">
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="https://www.instagram.com/rescue_app/">Instagram</a></h5>
+                                <h5 class="title"><a href="https://www.instagram.com/rescue_united/">Instagram</a></h5>
                                 <p>Manténte al día de como avanza el proyecto, como puedes ayudar y como estamos ayudando.</p>
                             </div>
                         </div>
@@ -49,12 +49,12 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="https://www.linkedin.com/company/rescue-app/">
+                                <a href="www.linkedin.com/company/rescue-united">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/linkedin.png" alt="">
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="https://www.linkedin.com/company/rescue-app/">LinkedIn</a></h5>
+                                <h5 class="title"><a href="www.linkedin.com/company/rescue-united">LinkedIn</a></h5>
                                 <p>Síguenos para ver qué novedades y planes tenemos!</p>
                             </div>
                         </div>
@@ -62,12 +62,12 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="https://www.twitter.com/rescueapp_es">
+                                <a href="https://twitter.com/rescueunitedorg">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/twitter.png" alt="">
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="https://www.twitter.com/rescueapp_es">Twitter</a></h5>
+                                <h5 class="title"><a href="https://twitter.com/rescueunitedorg">Twitter</a></h5>
                                 <p>Síguenos para ver lo que se comenta sobre RescueUnited!</p>
                             </div>
                         </div>

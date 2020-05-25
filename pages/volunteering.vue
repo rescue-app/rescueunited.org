@@ -1,7 +1,7 @@
 <template>
     <div>
         <SmallHero />
-        <div class="container mt-4">
+        <div class="container mt-4 mb-3">
             <div class="section-content">
                 <div class="row g-gs justify-content-between">
                     <div class="col">
@@ -16,7 +16,7 @@
                 <div class="row g-gs justify-content-between">
                     <div class="col">
                         <div class="text-block">
-                            <h2 class="title">A: SEARCH FOR A PROJECT</h2>
+                            <h3 class="title text-center">SEARCH FOR A PROJECT</h3>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                 <div class="row g-gs justify-content-between" style="margin-top: 3em;">
                     <div class="col">
                         <div class="text-block">
-                            <h2 class="title mb-0">B: JOIN OUR TEAM</h2>
+                            <h3 class="title mb-0 text-center">JOIN OUR TEAM</h3>
                             <p class="lead mb-0">Can't find a project that suits you?</p>
                             <p>Complete the following form and join our team! We will contact you as soon as a company posts a project where you can donate your talent :)</p>
                             <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/ErFKVZ" />

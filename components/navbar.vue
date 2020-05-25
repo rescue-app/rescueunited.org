@@ -12,9 +12,9 @@
                         <b-nav-item to="/#theChallenge" @click="scrollTo('#theChallenge')">The challenge</b-nav-item>
                         <b-nav-item to="/#aboutUs" @click="scrollTo('#aboutUs')">About us</b-nav-item>
                         <b-nav-item to="/#values" @click="scrollTo('#values')">Values</b-nav-item>
-                        <b-nav-item to="/#whoAreWe" @click="scrollTo('#whoAreWe')">¿Who are we?</b-nav-item>
+                        <b-nav-item to="/#whoAreWe" @click="scrollTo('#whoAreWe')">Who are we?</b-nav-item>
                         <b-nav-item to="/#contact" @click="scrollTo('#contact')">Contact</b-nav-item>
-                        <b-button squared class="d-none d-lg-block ml-lg-3" to="/volunteering" @click="removeActiveClass">Propose a project</b-button>
+                        <b-button squared class="d-none d-lg-block ml-lg-3" to="/propose-a-project" @click="removeActiveClass">Propose a project</b-button>
                         <b-button squared class="d-none d-lg-block ml-lg-3" to="/volunteering" @click="removeActiveClass">Volunteering</b-button>
                         <b-nav-item class="d-lg-none" to="/volunteering" @click="removeActiveClass">
                             <span class="font-weight-bold text-success">Participate</span>

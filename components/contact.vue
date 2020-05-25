@@ -16,7 +16,7 @@
                             </div>
                             <div class="blog-text">
                                 <h5 class="title"><a href="mailto:info@rescueunited.org">Email</a></h5>
-                                <p>Si el formulario no cubre tu necesidad, encuentras algún problema o cualquier otra cosa extraña!</p>
+                                <p>If the form does not cover your need, you find some problem or something else strange!</p>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             </div>
                             <div class="blog-text">
                                 <h5 class="title"><a href="https://www.instagram.com/rescue_united/">Instagram</a></h5>
-                                <p>Manténte al día de como avanza el proyecto, como puedes ayudar y como estamos ayudando.</p>
+                                <p>Keep up to date with how the project is progressing, how you can help and how we are helping.</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="blog-text">
                                 <h5 class="title"><a href="https://www.facebook.com/rescue_app-107990140849400/">Facebook</a></h5>
-                                <p>Últimas noticias, videos e imagenes de cómo se desarrolla el proyecto.</p>
+                                <p>Latest news, videos and images of how the project is developing.</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             </div>
                             <div class="blog-text">
                                 <h5 class="title"><a href="www.linkedin.com/company/rescue-united">LinkedIn</a></h5>
-                                <p>Síguenos para ver qué novedades y planes tenemos!</p>
+                                <p>Follow us to see what news and plans we have!</p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                             </div>
                             <div class="blog-text">
                                 <h5 class="title"><a href="https://twitter.com/rescueunitedorg">Twitter</a></h5>
-                                <p>Síguenos para ver lo que se comenta sobre RescueUnited!</p>
+                                <p>Follow us to see what people are saying about RescueUnited!</p>
                             </div>
                         </div>
                     </div>

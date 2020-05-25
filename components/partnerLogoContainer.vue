@@ -17,7 +17,7 @@
         <b-row v-for="(chunk, index) in partners" :key="`logosChunkPartners${index}`">
             <b-col v-for="(logo) in chunk" :key="logo.filename" class="d-flex align-items-center">
                 <a :href="logo.website" target="_blank">
-                    <img :src="require(`@/assets/images/partners/${logo.filename}`)" :alt="logo.name" :title="logo.name" class="img-responsive p-1">
+                    <img :src="require(`@/assets/images/partners/${logo.filename}`)" :alt="logo.name" :title="logo.name" class="img-responsive p-4">
                 </a>
             </b-col>
         </b-row>
@@ -34,8 +34,8 @@ export default {
     },
 
     mounted () {
-        this.team = this.getImages(require.context('~/assets/images/team/', true), 4)
-        this.partners = this.getImages(require.context('~/assets/images/partners/', true), 6)
+        this.team = this.getImages(require.context('~/assets/images/team/', true), 3)
+        this.partners = this.getImages(require.context('~/assets/images/partners/', true), 2)
     },
 
     methods: {

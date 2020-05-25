@@ -22,24 +22,13 @@
                 </div>
                 <project-search />
 
-                <hr />
-
-                <div class="row g-gs justify-content-between">
+                <div class="row g-gs justify-content-between" style="margin-top: 3em;">
                     <div class="col">
                         <div class="text-block">
-                            <h2 class="title">B: PARTICIPA</h2>
-                            <p class="lead">En Rescue app, buscamos centralizar los recursos, <strong>creando un repositorio único de con la información sobre las necesidades de cada centro hospitalario, residencia de mayores y de asistencia a particulares.</strong></p>
-                            <p>A continuación puedes participate en el proyecto, por favor sigue los pasos indicados y nos pondremos en contacto contigo lo antes posible para darte una solución</p>
-                            <custom-form></custom-form>
-                            <!--<Typeform-->
-                            <!--class="w-100 mb-3"-->
-                            <!--style="height: 700px"-->
-                            <!--:hide-headers="true"-->
-                            <!--:hide-footer="true"-->
-                            <!--:opacity="0"-->
-                            <!--:on-submit="onSubmit"-->
-                            <!--url="https://info548263.typeform.com/to/W2VwqF"-->
-                            <!--/>-->
+                            <h2 class="title mb-0">B: JOIN OUR TEAM</h2>
+                            <p class="lead mb-0">Can't find a project that suits you?</p>
+                            <p>Complete the following form and join our team! We will contact you as soon as a company posts a project where you can donate your talent :)</p>
+                            <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/ErFKVZ" />
                         </div>
                     </div>
                 </div>
@@ -50,21 +39,19 @@
 
 <script>
 import SmallHero from '@/components/smallHero'
-import CustomForm from '@/components/customForm'
 import ProjectSearch from '@/components/projectSearch'
 
 export default {
     components: {
         SmallHero,
-        CustomForm,
         ProjectSearch
     },
     methods: {
         onSubmit () {
             this.$ga.event({
                 eventCategory: 'Forms',
-                eventAction: 'Send Take Part Form',
-                eventLabel: 'takePart',
+                eventAction: 'Send Volunteer Form',
+                eventLabel: 'volunteerSignup',
                 eventValue: 1
             })
         }

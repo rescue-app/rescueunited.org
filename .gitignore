@@ -1,4 +1,4 @@
 node_modules
 dist
-.nuxt
+.nuxt/
 static/sw.js

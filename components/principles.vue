@@ -1,5 +1,5 @@
 <template>
-    <section class="section section-l bg-light section-steps pb-4" id="principles">
+    <section class="section section-l bg-light section-steps pb-0" id="principles">
         <b-container>
             <div class="section-content section-content-boxed">
                 <div class="row g-gs justify-content-center align-items-center">
@@ -13,9 +13,11 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-sm col-md-8 col-lg-4 text-center">
-                        <img width="285" height="415" src="~/assets/videos/video-explicativo.gif" alt="Explanatory video">
-                    </div> -->
+                    <div class="col-sm col-md-8 col-lg-4 text-center">
+                        <video class="d-none d-md-block w-100" style="margin-top:-2px;" autoplay muted loop>
+                            <source src="~/assets/videos/andyou.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
         </b-container>

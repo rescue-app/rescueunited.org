@@ -1,6 +1,6 @@
 <template>
     <footer class="nk-footer bg-dark tc-light has-overlay mt-4">
-        <div class="overlay shape shape-c"></div>
+        <div class="overlay shape"></div>
         <section class="section section-footer pt-4 pb-4 tc-light">
             <div class="container">
                 <div class="row g-gs gy-m">

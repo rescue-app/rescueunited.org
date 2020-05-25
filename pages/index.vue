@@ -4,8 +4,8 @@
         <HomeProjectSearch />
         <Goals />
         <AboutUs />
-        <ValuesContainer />
         <Facts />
+        <ValuesContainer />
         <Manifest />
         <Contact />
     </div>

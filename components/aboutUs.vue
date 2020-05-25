@@ -4,21 +4,23 @@
             <h5 class="subtitle">What do we do?</h5>
             <h2 class="title">About us</h2>
             <p>
-                We are a non-profit organization that aims to connect professionals with charitable institutions, where their skills can positively impact the world.
+                We are a non-profit organization focused on applying technology to maximize impact solving social problems.
+                <br>
+                Connecting non-profit projects related to the <nuxt-link to="https://sustainabledevelopment.un.org">Sustainable Development Goals</nuxt-link> with professionals looking for a purpose and willing to donate their skills and time.
             </p>
         </div>
         <InfographicSection />
-        <ExamplesVideo />
+        <Principles />
     </section>
 </template>
 
 <script>
 import InfographicSection from '@/components/infographicSection'
-import ExamplesVideo from '@/components/examplesVideo'
+import Principles from '@/components/principles'
 export default {
     components: {
         InfographicSection,
-        ExamplesVideo
+        Principles
     }
 }
 </script>

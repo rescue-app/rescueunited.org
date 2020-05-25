@@ -1,9 +1,9 @@
 <template>
     <div>
         <MainHero />
-        <HomeProjectSearch />
         <Goals />
         <AboutUs />
+        <HomeProjectSearch />
         <Facts />
         <ValuesContainer />
         <Manifest />

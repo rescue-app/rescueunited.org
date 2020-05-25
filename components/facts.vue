@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="nk-banner-block">
-                        <h3 class="text-center pt-2 pb-4 pb-sm-0 text-white">Thousands already helped thanks to our first non-profit project <nuxt-link to="https://rescueapp.es/" class="text-decoration-none text-white">Rescue app</nuxt-link>! 🥰</h3>
+                        <h3 class="text-center pt-2 pb-4 pb-sm-0 text-white">Thousands already helped thanks to our first non-profit project <br> <nuxt-link to="https://rescueapp.es/" class="text-decoration-none text-white">Rescue app</nuxt-link>! 🥰</h3>
                     </div>
                     <p class="mt-4 ds-wrapper text-center" id="datastudio">
                         <iframe scrolling="no" class="data" src="https://datastudio.google.com/embed/reporting/7bc90df8-23a4-420f-8175-ac8862d9e05b/page/hUWLB" frameborder="0" style="border:0"></iframe>

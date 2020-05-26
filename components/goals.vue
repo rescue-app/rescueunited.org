@@ -30,11 +30,11 @@
             <h5>The SDGs will stimulate action over the next years in areas of critical importance for humanity and the planet:</h5>
 
             <b-card no-body>
-                <b-tabs card>
-                                    <b-tab title="People" active><b-card-text>We are determined to end poverty and hunger, in all their forms and dimensions, and to ensure that all human beings can fulfil their potential in dignity and equality and in a healthy environment.</b-card-text></b-tab>
-                <b-tab title="Planet"><b-card-text>We are determined to protect the planet from degradation, including through sustainable consumption and production, sustainably managing its natural resources and taking urgent action on climate change, so that it can support the needs of the present and future generations.</b-card-text></b-tab>
-                <b-tab title="Prosperity"><b-card-text>We are determined to ensure that all human beings can enjoy prosperous and fulfilling lives and that economic, social and technological progress occurs in harmony with nature.</b-card-text></b-tab>
-                <b-tab title="Peace"><b-card-text>We are determined to foster peaceful, just and inclusive societies which are free from fear and violence. There can be no sustainable development without peace and no peace without sustainable development.</b-card-text></b-tab>
+                <b-tabs card fill>
+                    <b-tab title="People" active><b-card-text>We are determined to end poverty and hunger, in all their forms and dimensions, and to ensure that all human beings can fulfil their potential in dignity and equality and in a healthy environment.</b-card-text></b-tab>
+                    <b-tab title="Planet"><b-card-text>We are determined to protect the planet from degradation, including through sustainable consumption and production, sustainably managing its natural resources and taking urgent action on climate change, so that it can support the needs of the present and future generations.</b-card-text></b-tab>
+                    <b-tab title="Prosperity"><b-card-text>We are determined to ensure that all human beings can enjoy prosperous and fulfilling lives and that economic, social and technological progress occurs in harmony with nature.</b-card-text></b-tab>
+                    <b-tab title="Peace"><b-card-text>We are determined to foster peaceful, just and inclusive societies which are free from fear and violence. There can be no sustainable development without peace and no peace without sustainable development.</b-card-text></b-tab>
                 </b-tabs>
             </b-card>
         </div>

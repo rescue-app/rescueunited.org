@@ -5,19 +5,27 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'RescueUnited: Non-profit project incubator and accelerator, where professionals can donate their talent remotely',
+        title: 'Rescue United: Non-profit projects incubator and accelerator, where professionals can donate their talent remotely',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Non-profit project incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'description', name: 'description', content: 'Non-profit projects incubator and accelerator, where professionals can donate their talent remotely' },
             { hid: 'og_locale', property: 'og:locale', content: 'es_ES' },
             { hid: 'og_type', property: 'og:type', content: 'Website' },
-            { hid: 'og_title', property: 'og:title', content: 'RescueUnited' },
-            { hid: 'og_description', property: 'og:description', content: 'Non-profit project incubator and accelerator, where professionals can donate their talent remotely' },
-            { hid: 'og_url', property: 'og:url', content: 'https://Rescueunited.org' }
+            { hid: 'og_title', property: 'og:title', content: 'Rescue United' },
+            { hid: 'og_description', property: 'og:description', content: 'Non-profit projects incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'og_url', property: 'og:url', content: 'https://rescueunited.org' },
+            { hid: 'msapplication_TileColor', name: 'msapplication-TileColor', content: '#00aba9' },
+            { hid: 'msapplication_config', name: 'msapplication-config', content: '/favicons/browserconfig.xml' },
+            { hid: 'theme_color', name: 'theme-color', content: '#ffffff' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
+            { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
+            { rel: 'manifest', href: '/favicons/site.webmanifest' },
+            { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#5bbad5' },
+            { rel: 'shortcut icon', href: '/favicons/favicon.ico' },
+            { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }
         ]
     },
     /*

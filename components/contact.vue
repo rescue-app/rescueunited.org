@@ -41,7 +41,7 @@
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="https://www.facebook.com/rescue_app-107990140849400/">Facebook</a></h5>
+                                <h5 class="title"><a href="https://www.facebook.com/Rescue-United-105823647815271">Facebook</a></h5>
                                 <p>Latest news, videos and images of how the project is developing.</p>
                             </div>
                         </div>

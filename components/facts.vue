@@ -4,7 +4,11 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="nk-banner-block">
-                        <h3 class="text-center pt-2 pb-4 pb-sm-0 text-white">Thousands already helped thanks to our first non-profit project <br> <nuxt-link to="https://rescueapp.es/" class="text-decoration-none text-white">Rescue app</nuxt-link>! 🥰</h3>
+                        <h4 class="text-center pt-4 pb-4 pb-sm-0 text-white">Thousands already helped thanks to our first non-profit project! 🥰<br>
+                            <a href="https://rescueapp.es/" target="_blank" class="text-decoration-none text-white">
+                                <img src="~/assets/images/rescueapp.png" class="img-responsive w-25 mt-4 mb-4" width="600" height="190" />
+                            </a>
+                        </h4>
                     </div>
                 </div>
 

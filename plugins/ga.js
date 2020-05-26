@@ -4,7 +4,7 @@ import vueAnalytics from 'vue-analytics'
 export default (ctx, inject) => {
     const enabled = ctx.app.$cookies.consent && Array.isArray(ctx.app.$cookies.enabledList) && ctx.app.$cookies.enabledList.includes('google-analytics')
     Vue.use(vueAnalytics, {
-        id: 'UA-162736581-1',
+        id: 'UA-162736581-2',
         disabled: !enabled,
         debug: {
             enabled: false,

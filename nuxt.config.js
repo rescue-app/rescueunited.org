@@ -101,7 +101,7 @@ module.exports = {
         manifest: {
             name: 'Rescue App',
             lang: 'es',
-            short_name: 'rescueapp',
+            short_name: 'rescueunited',
             display: 'standalone',
             theme_color: '#87c4e9'
         },

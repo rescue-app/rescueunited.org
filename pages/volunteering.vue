@@ -6,7 +6,7 @@
                 <div class="row g-gs justify-content-between">
                     <div class="col">
                         <div class="text-block">
-                            <h5 class="subtitle">¿CÓMO PUEDO COLABORAR O PEDIR AYUDA?</h5>
+                            <h5 class="subtitle">CAN I JOIN?</h5>
                         </div>
                     </div>
 

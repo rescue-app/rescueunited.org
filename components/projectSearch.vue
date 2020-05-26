@@ -6,7 +6,7 @@
                     <div class="form-row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input v-model="userQuery" class="form-control form-control-lg" id="query" :readonly="this.loading" />
+                                <input v-model="userQuery" class="form-control form-control-lg" id="query" autocomplete="off" :readonly="this.loading" />
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-secondary rounded-0" type="submit" :disabled="this.loading">Search</button>
                                 </div>
@@ -29,10 +29,15 @@
                 </div>
 
                 <div v-else>
-                    <div v-for="result in results" :key="result.id" class="search-result pb-2">
-                        <h6 class="mb-1 text-uppercase"><small><strong>{{ result.cause }} in {{ result.companyName }}</strong></small></h6>
+                    <div v-for="result in results" :key="result.id" class="search-result">
+                        <h6 class="mb-1 text-uppercase"><small><strong>{{ result.country }}</strong></small></h6>
                         <h4 class="mb-0">{{ result.companyName }}</h4>
                         <p>{{ result.projectBrief }}</p>
+                        <p>
+                            <span v-for="cause in result.causes" :key="cause">
+                                <b-badge variant="info">{{ cause }}</b-badge>&nbsp;
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,5 +101,8 @@ export default {
 <style scoped>
 .search-result:not(:last-child) {
     border-bottom: 1px #87C4EA dotted;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 </style>

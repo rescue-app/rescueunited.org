@@ -67,9 +67,9 @@ module.exports = {
                 barBackground: '#87c4e9'
             },
             text: {
-                barDescription: 'El sitio web Rescueunited.org utiliza cookies propias y de terceros para recopilar información que ayuda a optimizar su visita a sus páginas web. No se utilizarán las cookies para recoger información de carácter personal. Usted puede permitir su uso o rechazarlo, también puede cambiar su configuración siempre que lo desee. Encontrará más información en nuestra Política de Cookies.',
-                acceptAll: 'Aceptar cookies',
-                manageCookies: 'Modificar cookies'
+                barDescription: 'The Rescueunited.org website uses its own and third-party cookies to collect information that helps optimize your visit to its websites. Cookies will not be used to collect personal information. You can allow their use or reject them, you can also change their settings whenever you want. You can find more information in our Cookie Policy.',
+                acceptAll: 'Accept cookies',
+                manageCookies: 'Manage cookies'
             }
         }]
     ],

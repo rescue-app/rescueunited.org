@@ -47,7 +47,7 @@ export default {
                     filename: key.substring(2),
                     position: parts[0],
                     name: parts[1],
-                    website: (parts.length === 3) ? `https://${parts[2]}` : undefined
+                    website: (parts.length === 3) ? `http://${parts[2]}` : undefined
                 })
             })
             return this.chunkArray(images, maxPerRow)

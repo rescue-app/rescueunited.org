@@ -6,7 +6,7 @@
             <p>
                 We are a non-profit organization focused on applying technology to maximize impact solving social problems.
                 <br>
-                Connecting non-profit projects related to the <nuxt-link to="https://sustainabledevelopment.un.org">Sustainable Development Goals</nuxt-link> with professionals looking for a purpose and willing to donate their skills and time.
+                Connecting non-profit projects related to the <a href="https://sustainabledevelopment.un.org" target="_blank">Sustainable Development Goals</a> with professionals looking for a purpose and willing to donate their skills and time.
             </p>
         </div>
         <InfographicSection />

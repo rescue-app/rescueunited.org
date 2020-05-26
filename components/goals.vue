@@ -1,8 +1,9 @@
 <template>
-    <section class="section section-l pt-5 pb-5 bg-light text-center" id="theChallenge">
+    <section class="section section-l pt-5 pb-3 bg-light text-center" id="theChallenge">
         <div class="section-head text-center wide-lg pb-0">
             <h5 class="subtitle">Sustainable Development Goals</h5>
             <h2 class="title">The challenge</h2>
+            <p class="pb-4">The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future.</p>
         </div>
         <div id="goal-list">
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/sdgsfirst.png" alt="Goal"></div></nuxt-link>
@@ -24,19 +25,18 @@
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-16.jpg" alt="Goal"><div class="goaltext" style="background: #126a9f">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-17.jpg" alt="Goal"><div class="goaltext" style="background: #14496a">Strengthen the means of implementation and revitalize the global partnership for sustainable development</div></div></nuxt-link>
         </div>
-        <div id="explainer"  class="pt-3">
-            <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future.</p>
+        <div id="explainer" class="p-3">
             <p>At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries in a global partnership.</p>
-            
-            <h4 class="pt-2">The SDGs will stimulate action over the next years in areas of critical importance for humanity and the planet:</h4>
-            <h5>People</h5>
-            <p>            We are determined to end poverty and hunger, in all their forms and dimensions, and to ensure that all human beings can fulfil their potential in dignity and equality and in a healthy environment.</p>
-            <h5>Planet</h5>
-            <p>            We are determined to protect the planet from degradation, including through sustainable consumption and production, sustainably managing its natural resources and taking urgent action on climate change, so that it can support the needs of the present and future generations.</p>
-            <h5>Prosperity</h5>
-            <p>            We are determined to ensure that all human beings can enjoy prosperous and fulfilling lives and that economic, social and technological progress occurs in harmony with nature.</p>
-            <h5>Peace</h5>
-            <p>            We are determined to foster peaceful, just and inclusive societies which are free from fear and violence. There can be no sustainable development without peace and no peace without sustainable development.</p>
+            <h5>The SDGs will stimulate action over the next years in areas of critical importance for humanity and the planet:</h5>
+
+            <b-card no-body>
+                <b-tabs card>
+                                    <b-tab title="People" active><b-card-text>We are determined to end poverty and hunger, in all their forms and dimensions, and to ensure that all human beings can fulfil their potential in dignity and equality and in a healthy environment.</b-card-text></b-tab>
+                <b-tab title="Planet"><b-card-text>We are determined to protect the planet from degradation, including through sustainable consumption and production, sustainably managing its natural resources and taking urgent action on climate change, so that it can support the needs of the present and future generations.</b-card-text></b-tab>
+                <b-tab title="Prosperity"><b-card-text>We are determined to ensure that all human beings can enjoy prosperous and fulfilling lives and that economic, social and technological progress occurs in harmony with nature.</b-card-text></b-tab>
+                <b-tab title="Peace"><b-card-text>We are determined to foster peaceful, just and inclusive societies which are free from fear and violence. There can be no sustainable development without peace and no peace without sustainable development.</b-card-text></b-tab>
+                </b-tabs>
+            </b-card>
         </div>
     </section>
 </template>

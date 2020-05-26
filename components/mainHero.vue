@@ -8,10 +8,10 @@
                             <h1>Rescue United</h1>
                             <h2 class="d-none d-sm-block text-nowrap">Talent in action for a purpose</h2>
                             <h2 class="d-sm-none">Talent in action for a purpose</h2>
-                            <p>Non-profit project incubator and accelerator, where professionals can donate their talent remotely</p>
+                            <p>Non-profit projects incubator and accelerator, where professionals can donate their talent remotely</p>
                             <p>
-                                <b-button class="d-md-none" block squared to="/volunteering">Propose a project</b-button>
-                                <b-button class="d-none d-md-inline" squared size="lg" to="/volunteering">Propose a project</b-button>
+                                <b-button class="d-md-none" block squared to="/propose-a-project">Propose a project</b-button>
+                                <b-button class="d-none d-md-inline" squared size="lg" to="/propose-a-project">Propose a project</b-button>
                                 <b-button class="d-md-none" block squared to="/volunteering">Volunteering</b-button>
                                 <b-button class="d-none d-md-inline" squared size="lg" to="/volunteering">Volunteering</b-button>
                             </p>

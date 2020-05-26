@@ -11,16 +11,20 @@
         </div>
         <InfographicSection />
         <Principles />
+        <HowItWorks />
     </section>
 </template>
 
 <script>
 import InfographicSection from '@/components/infographicSection'
 import Principles from '@/components/principles'
+import HowItWorks from '@/components/howItWorks'
+
 export default {
     components: {
         InfographicSection,
-        Principles
+        Principles,
+        HowItWorks
     }
 }
 </script>

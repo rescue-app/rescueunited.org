@@ -24,8 +24,8 @@
                         <div class="col">
                             <p class="nk-copyright">
                                 &copy; 2020 rescueunited.org
-                                &nbsp;|&nbsp;<nuxt-link to="/aviso-legal">Legal disclaimer</nuxt-link>
-                                &nbsp;|&nbsp;<nuxt-link to="/politica-de-cookies">Cookie policy</nuxt-link>
+                                &nbsp;|&nbsp;<nuxt-link to="/legal-notice">Legal disclaimer</nuxt-link>
+                                &nbsp;|&nbsp;<nuxt-link to="/cookie-policy">Cookie policy</nuxt-link>
                             </p>
                         </div>
                     </div>

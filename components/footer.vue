@@ -14,7 +14,7 @@
                                 <li><a href="https://www.instagram.com/rescue_united/"><em class="icon ni ni-instagram"></em></a></li>
                                 <li><a href="https://www.linkedin.com/company/rescue-united"><em class="icon ni ni-linkedin"></em></a></li>
                                 <li><a href="https://www.twitter.com/rescueunitedorg"><em class="icon ni ni-twitter"></em></a></li>
-                                <li><a href="https://www.facebook.com/Rescue-United-105823647815271"><em class="icon ni ni-facebook"></em></a></li>
+                                <li><a href="https://www.facebook.com/Rescue-United-105823647815271"><em class="icon ni ni-facebook-f"></em></a></li>
                             </ul>
                         </div>
                     </div>

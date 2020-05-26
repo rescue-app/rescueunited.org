@@ -3,7 +3,8 @@
         <div class="section-head text-center wide-lg pb-0">
             <h5 class="subtitle">Sustainable Development Goals</h5>
             <h2 class="title">The challenge</h2>
-            <p class="pb-4">The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future.</p>
+            <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future.</p>
+            <p class="pb-2"><strong>At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries in a global partnership.</strong></p>
         </div>
         <div id="goal-list">
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/sdgsfirst.png" alt="Goal"></div></nuxt-link>
@@ -26,7 +27,6 @@
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-17.jpg" alt="Goal"><div class="goaltext" style="background: #14496a">Strengthen the means of implementation and revitalize the global partnership for sustainable development</div></div></nuxt-link>
         </div>
         <div id="explainer" class="p-3">
-            <p>At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries in a global partnership.</p>
             <h5>The SDGs will stimulate action over the next years in areas of critical importance for humanity and the planet:</h5>
 
             <b-card no-body>

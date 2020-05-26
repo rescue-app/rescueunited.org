@@ -29,14 +29,21 @@
                 </div>
 
                 <div v-else>
-                    <div v-for="result in results" :key="result.id" class="search-result">
-                        <h6 class="mb-1 text-uppercase"><small><strong>{{ result.country }}</strong></small></h6>
-                        <h4 class="mb-0">{{ result.companyName }}</h4>
-                        <p>{{ result.projectBrief }}</p>
+                    <div v-for="project in projects" :key="project.id" class="search-result">
+                        <h6 class="mb-1 text-uppercase"><small><strong>{{ project.country }}</strong></small></h6>
                         <p>
-                            <span v-for="cause in result.causes" :key="cause">
+                            <span v-for="cause in project.causes" :key="cause">
                                 <b-badge variant="info">{{ cause }}</b-badge>&nbsp;
                             </span>
+                        </p>
+                        <h4 class="mb-0 text-dark">{{ project.title }}</h4>
+                        <p class="text-dark">{{ project.projectBrief }}</p>
+                        <p>
+                            <small>
+                                <span v-for="skill in project.skills" :key="skill">
+                                    <b-badge variant="light" class="text-info m-0 p-0">{{ skill }}</b-badge>&nbsp;
+                                </span>
+                            </small>
                         </p>
                     </div>
                 </div>
@@ -58,7 +65,7 @@ export default {
     data () {
         return {
             userQuery: '',
-            results: [],
+            projects: [],
             loading: false,
             performedSearch: false,
         }
@@ -69,23 +76,22 @@ export default {
         },
 
         hasResults () {
-            if(!Array.isArray(this.results)) {
+            if(!Array.isArray(this.projects)) {
                 return false;
             }
 
-            return this.results.length > 0;
+            return this.projects.length > 0;
         }
     },
     methods: {
         async search () {
             const requestUrl = `https://api.rescueunited.org/project/search?query=${encodeURIComponent(this.userQuery)}`;
             this.loading = true
-            this.results = [];
+            this.projects = [];
             this.performedSearch = false;
 
             try {
-                this.results = await this.$http.$get(requestUrl);
-                console.log(this.results);
+                this.projects = await this.$http.$get(requestUrl);
             } catch (error) {
                 console.log(error);
             } finally {

@@ -17,13 +17,21 @@
                             <div v-else>
                                 <div v-for="project in projects" :key="project.id" class="search-result">
                                     <h6 class="mb-1 text-uppercase"><small><strong>{{ project.country }}</strong></small></h6>
-                                    <h4 class="mb-0">{{ project.companyName }}</h4>
-                                    <p>{{ project.projectBrief }}</p>
                                     <p>
                                         <span v-for="cause in project.causes" :key="cause">
                                             <b-badge variant="info">{{ cause }}</b-badge>&nbsp;
                                         </span>
                                     </p>
+                                    <h4 class="mb-0 text-dark">{{ project.title }}</h4>
+                                    <p class="text-dark">{{ project.projectBrief }}</p>
+                                    <p>
+                                        <small>
+                                            <span v-for="skill in project.skills" :key="skill">
+                                                <b-badge variant="light" class="text-info m-0 p-0">{{ skill }}</b-badge>&nbsp;
+                                            </span>
+                                        </small>
+                                    </p>
+                                    
                                 </div>
                             </div>
 

@@ -49,12 +49,12 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="www.linkedin.com/company/rescue-united">
+                                <a href="https://www.linkedin.com/company/rescue-united">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/linkedin.png" alt="">
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="www.linkedin.com/company/rescue-united">LinkedIn</a></h5>
+                                <h5 class="title"><a href="https://www.linkedin.com/company/rescue-united">LinkedIn</a></h5>
                                 <p>Follow us to see what news and plans we have!</p>
                             </div>
                         </div>

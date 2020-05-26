@@ -10,10 +10,10 @@
                                 <p>#andyou</p>
                             </div>
                             <ul class="wgs-social">
-                                <li><a href="mailto:info@Rescueunited.org"><em class="icon ni ni-mail-fill"></em></a></li>
-                                <li><a href="https://www.instagram.com/rescue_app/"><em class="icon ni ni-instagram"></em></a></li>
-                                <li><a href="https://www.linkedin.com/company/rescue-app/"><em class="icon ni ni-linkedin"></em></a></li>
-                                <li><a href="https://www.twitter.com/rescueapp_es"><em class="icon ni ni-twitter"></em></a></li>
+                                <li><a href="mailto:info@rescueunited.org"><em class="icon ni ni-mail-fill"></em></a></li>
+                                <li><a href="https://www.instagram.com/rescue_united/"><em class="icon ni ni-instagram"></em></a></li>
+                                <li><a href="https://www.linkedin.com/company/rescue-united"><em class="icon ni ni-linkedin"></em></a></li>
+                                <li><a href="https://www.twitter.com/rescueunitedorg"><em class="icon ni ni-twitter"></em></a></li>
                             </ul>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <p class="nk-copyright">
-                                &copy; 2020 Rescueunited.org
+                                &copy; 2020 rescueunited.org
                                 &nbsp;|&nbsp;<nuxt-link to="/aviso-legal">Legal disclaimer</nuxt-link>
                                 &nbsp;|&nbsp;<nuxt-link to="/politica-de-cookies">Cookie policy</nuxt-link>
                             </p>

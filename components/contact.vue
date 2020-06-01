@@ -36,7 +36,7 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="https://www.facebook.com/rescue_app-107990140849400/">
+                                <a href="https://www.facebook.com/Rescue-United-105823647815271">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/facebook.png" alt="Logo Facebook">
                                 </a>
                             </div>

@@ -7,7 +7,7 @@
                     <div class="col">
                         <div class="text-block">
                             <h3 class="title text-center">CURRENT PROJECTS</h3>
-                            <p class="lead mb-0 text-center">These are our current projects. You can <strong><nuxt-link to="/propose-a-project">propose a new one</nuxt-link></strong>, or <strong><nuxt-link to="/volunteering">signup as a volunteer</nuxt-link></strong></p>
+                            <p class="lead mb-0 text-center">These are our current projects. You can <strong><nuxt-link to="/propose-a-project">propose a new one</nuxt-link></strong>, or <strong><nuxt-link to="/volunteering">sign up as a volunteer</nuxt-link></strong></p>
 
                             <div class="col" v-if="loading">
                                 <div class="spinner-border spinner-border-sm" role="status"></div>&nbsp;

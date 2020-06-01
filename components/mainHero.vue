@@ -10,9 +10,10 @@
                             <h2 class="d-sm-none">Talent in action for a purpose</h2>
                             <p>Non-profit projects incubator and accelerator, where professionals can donate their talent remotely</p>
                             <p>
-                                <b-button class="d-md-none" block squared to="/current-projects">Projects</b-button>
+                                <b-button class="d-block d-md-none mt-3 bg-white text-dark" squared size="lg" variant="light" to="/current-projects">Projects</b-button>
                                 <b-button class="d-none d-md-inline  bg-white text-dark" squared size="lg" variant="light" to="/current-projects">Projects</b-button>
-                                <b-button class="d-md-none" block squared to="/volunteering">Volunteering</b-button>
+                                
+                                <b-button class="d-block d-md-none mt-3 bg-white text-dark" squared size="lg" variant="light" to="/volunteering">Volunteering</b-button>
                                 <b-button class="d-none d-md-inline bg-white text-dark" squared size="lg" variant="light" to="/volunteering">Volunteering</b-button>
                             </p>
                             <p class="mt-4 ds-wrapper">

@@ -10,7 +10,7 @@
                             <h2 class="title">#andyou</h2>
                             <p> <strong>Initiative possible thanks to all these collaborators</strong></p>
                             <PartnerLogoContainer style="background-color: #FFFFFF;" />
-                            <p>And all the individuals who fight and support the <a href="https://sustainabledevelopment.un.org/?menu=1300" target="_blank" class="text-muted">Social Development Goals</a></p>
+                            <p>We support the <a href="https://sustainabledevelopment.un.org/?menu=1300" target="_blank">Sustainable Development Goals</a></p>
                         </div><!-- .text-block -->
                     </div><!-- .col -->
                     <div class="col-lg-5">

@@ -7,7 +7,7 @@
             <p class="pb-2"><strong>At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries in a global partnership.</strong></p>
         </div>
         <div id="goal-list">
-            <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/sdgsfirst.png" alt="Goal"></div></nuxt-link>
+            <nuxt-link class="goalbox" to="/"><div><img src="~/assets/images/gfx/goals/sdgsfirst.png" alt="Goal"></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-01.jpg" alt="Goal"><div class="goaltext" style="background: #e5233d">End poverty in all its forms everywhere</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-02.jpg" alt="Goal"><div class="goaltext" style="background: #dda73b">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</div></div></nuxt-link>
             <nuxt-link class="goalbox" to="/"><div><img src="https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-03.jpg" alt="Goal"><div class="goaltext" style="background: #4ca146">Ensure healthy lives and promote well-being for all at all ages</div></div></nuxt-link>

@@ -6,7 +6,7 @@
                     <div class="nk-banner-block">
                         <div class="content mt-2 mt-sm-0 tc-light">
                             <h1>Rescue United</h1>
-                            <p>Non-profit project incubator and accelerator, where professionals can donate their talent remotely </p>
+                            <p>Skill-based community of remote volunteers, where professionals can donate their talent for a purpose</p>
                         </div>
                     </div>
                 </b-col>

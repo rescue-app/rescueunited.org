@@ -5,15 +5,15 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'Rescue United: Non-profit projects incubator and accelerator, where professionals can donate their talent remotely',
+        title: 'Rescue United: Skill-based community of remote volunteers, where professionals can donate their talent for a purpose',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Non-profit projects incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'description', name: 'description', content: 'Skill-based community of remote volunteers, where professionals can donate their talent for a purpose' },
             { hid: 'og_locale', property: 'og:locale', content: 'es_ES' },
             { hid: 'og_type', property: 'og:type', content: 'Website' },
             { hid: 'og_title', property: 'og:title', content: 'Rescue United' },
-            { hid: 'og_description', property: 'og:description', content: 'Non-profit projects incubator and accelerator, where professionals can donate their talent remotely' },
+            { hid: 'og_description', property: 'og:description', content: 'Skill-based community of remote volunteers, where professionals can donate their talent for a purpose' },
             { hid: 'og_url', property: 'og:url', content: 'https://rescueunited.org' },
             { hid: 'msapplication_TileColor', name: 'msapplication-TileColor', content: '#00aba9' },
             { hid: 'msapplication_config', name: 'msapplication-config', content: '/favicons/browserconfig.xml' },

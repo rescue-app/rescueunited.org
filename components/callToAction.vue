@@ -1,7 +1,7 @@
 <template>
   <div class="row d-flex justify-content-around mt-5" id="callToAction">
     <div
-      class="card text-center shadow animated slideInLeft mb-5"
+      class="card text-center shadow animated slideInLeft"
       style="width: 18rem; opacity: .9;"
     >
       <!-- <img
@@ -11,13 +11,13 @@
       /> -->
       <div class="card-body mt-0 pt-0">
         <nuxt-link to="/current-projects" class="stretched-link" />
-        <h5 class="card-title mt-3">Organizations</h5>
-        <p class="card-text">Click here in order to register a new project</p>
+        <h5 class="card-title mt-3">Propose a project</h5>
+        <p class="card-text">Propose a tech-based social project related to one or more SDGs</p>
       </div>
     </div>
 
     <div
-      class="card text-center shadow animated slideInRight mb-5"
+      class="card text-center shadow animated slideInRight"
       style="width: 18rem; opacity: .9;"
     >
       <!-- <img
@@ -29,7 +29,7 @@
         <nuxt-link to="/volunteering" class="stretched-link" />
         <h5 class="card-title mt-3">Volunteers</h5>
         <p class="card-text">
-          Register your interest in participating in a project as a volunteer
+          Create your volunteer profile!
         </p>
       </div>
     </div>

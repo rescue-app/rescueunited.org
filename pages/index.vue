@@ -2,7 +2,6 @@
     <div>
         <MainHero />
         <Goals />
-        <CallToAction />
         <AboutUs />
         <HomeProjectSearch />
         <Facts />
@@ -21,7 +20,6 @@ import Facts from '@/components/facts'
 import Manifest from '@/components/manifest'
 import Contact from '@/components/contact'
 import Goals from '@/components/goals'
-import CallToAction from '@/components/callToAction'
 export default {
     components: {
         MainHero,
@@ -32,7 +30,6 @@ export default {
         Manifest,
         Contact,
         Goals,
-        CallToAction
     }
 }
 </script>

@@ -43,33 +43,6 @@
           @click="storeStepInfo(stepProps)"
         >Aceptar</b-button>
 
-        <div v-if="isNoneInput() && stepProps.name === 'psicologo'">
-          <div>
-            <span class="step-title">
-              Si está atravesando una situación complicada, el Colegio Oficial de Psicología de Madrid ha puesto en marcha un nuevo Servicio de Atención Psicológica ante el Coronavirus
-              <br />
-              <br />Interesados, por favor llamar al
-              <strong>91 700 79 88</strong>
-              <br />
-              <br />
-              <em>*Destinado tanto a personas que estén contagiadas y que estén hospitalizadas o pasando la enfermedad aislados en su domicilio, como a trabajadores de cualquier ámbito que se vean afectados, o simplemente a personas que estén atravesando situaciones de estrés o ansiedad por el aislamiento domiciliario.</em>
-            </span>
-          </div>
-          <img src="@/assets/images/psicologos.png" alt="psicologos" />
-        </div>
-
-        <div v-if="isNoneInput() && stepProps.name === 'donacion'">
-          <div>
-            <h6 class="step-title">
-              Puedes realizar tu donación en
-              <a
-                target="_blank"
-                href="https://www.contraelcoronavirus.org/helpup"
-              >https://www.contraelcoronavirus.org/helpup</a>
-            </h6>
-          </div>
-          <img src="@/assets/images/donacion.jpeg" alt="donaciones" />
-        </div>
         <b-button
           class="form-button accept-button"
           v-if="isNoneInput()"
@@ -82,7 +55,7 @@
         :key="'thanks-wrapper'"
         class="step-title thanks-wrapper"
       >
-        Thank you {{ formData.name }}! 
+        Thank you {{ formData.name }}!
 
         We will contact you as soon as possible to verify and validate your request.
 
@@ -132,7 +105,7 @@ export default {
     displayCaptcha: false,
     validChallenge: false,
     challenge: undefined,
-    formData: {
+    formData: {  //TODO needs to be adjusted to new fields
       tipo: null,
       offer_type: null,
       offer_quantity: null,
@@ -154,7 +127,6 @@ export default {
     }
   }),
   mounted() {
-    console.log(this.form);
     this.formDefinition =
       this.form === "volunteer" ? formVolunteer : formProject;
     this.stepsNumber = this.formDefinition.length;
@@ -197,36 +169,6 @@ export default {
       if (step === -1) {
         this.displayCaptcha = true;
         return;
-      }
-
-      // Si pone otra necesidad
-      if (this.step === 5) {
-        this.formData.needs.push({
-          quantity: this.formData.need_quantity,
-          isOffer: false,
-          type: this.formData.need_type,
-          details: this.formData.need_description,
-          other: null
-        });
-
-        this.formData.need_quantity = null;
-        this.formData.need_type = null;
-        this.formData.need_description = null;
-      }
-
-      // Si pone otro ofrecimiento
-      if (this.step === 16) {
-        this.formData.offers.push({
-          quantity: this.formData.offer_quantity,
-          isOffer: true,
-          type: this.formData.offer_type,
-          details: this.formData.offer_description,
-          other: null
-        });
-
-        this.formData.offer_quantity = null;
-        this.formData.offer_type = null;
-        this.formData.offer_description = null;
       }
 
       this.step = step;
@@ -300,6 +242,7 @@ export default {
         stocks: this.getStock()
       };
 
+      //TODO needs to be adjusted to new API
       fetch("https://api.rescueapp.es/request", {
         method: "POST",
         body: JSON.stringify(data),

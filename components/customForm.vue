@@ -7,6 +7,7 @@
         :class="{'submitted': submittedField}"
       >
         <h5 class="step-title" :key="'text' + step">{{ stepProps.text }}</h5>
+        <h6 class="step-subtitle" v-if="stepProps.subtitle" :key="'subtitle' + step">{{ stepProps.subtitle }}</h6>
 
         <div class="error" v-if="stepProps.error">{{ stepProps.error }}</div>
 
@@ -18,6 +19,15 @@
         >{{ option.text }}</b-button>
 
         <img class="step-image" v-if="stepProps.image" :src="stepProps.image"/>
+
+        <b-form-select :ref="stepProps.id"
+                       v-if="isOptionInput()"
+                       v-model="formData[stepProps.id]"
+                       :options="stepProps.options"
+                       multiple
+                       :select-size="4">
+        </b-form-select>
+
         <b-input
           :key="'input' + stepProps.input + step"
           :list="stepProps.id"
@@ -145,12 +155,16 @@ export default {
     isNoneInput() {
       return this.stepProps.input === "none";
     },
+    isOptionInput() {
+      return this.stepProps.input === "option";
+    },
     shouldDisplayAcceptButton() {
       return (
         this.isTextInput() ||
         this.isNumberInput() ||
         this.isEmailInput() ||
-        this.isTelInput()
+        this.isTelInput() ||
+        this.isOptionInput()
       );
     },
     getInputOptions() {

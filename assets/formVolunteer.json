@@ -65,6 +65,7 @@
   {
     "step": 5,
     "text": "How much time do you have available to collaborate?",
+    "subtitle": "hours per week",
     "placeholder": "Type your answer here...",
     "input": "number",
     "id": "hours_week",

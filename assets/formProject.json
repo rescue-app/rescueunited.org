@@ -60,273 +60,102 @@
     ],
     "next": 5
   },
-  {
-    "step": 5,
-    "text": "¿Quieres añadir otra necesidad?",
-    "input": "button",
-    "id": "Otra_necesidad_1__c",
-    "options": [
-      {
-        "text": "Si",
-        "next": 2
-      },
-      {
-        "text": "No",
+    {
+        "step": 5,
+        "text": "What are the skills or expertise you need to complete your project?",
+        "id": "skills",
+        "placeholder": "Choose as many as you like",
+        "input": "text",
+        "options": ["Accounting","Account Management","Artificial Intelligence","Branding","Business Development","Business Intelligence","Coaching\/Mentoring","Communications","CRM","Customer Experience","Customer Success","Data Analysis","Database Administration","Digital Marketing","Engineering","Entrepreneurship","Event Planning","Executive Leadership","Finance","Fundraising","Graphic Design","Growth","Human Resources","Legal","Illustrator","Machine Learning","Management","Marketing","Native apps (iOS, Android)","Operations","Organizational Design","Performance Marketing","Photography & Video","Product Design","Product Management","Project\/Program Management","Public Relations","Research","Sales","Social Media","Sound Editing","Strategy Consulting","Talent Recruitment","Training","Video editing","Web Design","Web Development","Writing"],
         "next": 6
-      }
-    ]
-  },
-  {
-    "step": 6,
-    "text": "¿Quién eres?",
-    "placeholder": "Type your answer here...",
-    "input": "text",
-    "id": "contactType",
-    "options": [
-      "Centro Hospitalario",
-      "Residencia de Mayores",
-      "Particular que necesita asistencia",
-      "Otro"
-    ],
-    "next": 20
-  },
-  {
-    "step": 7,
-    "text": "Persona de contacto",
-    "placeholder": "Type your answer here...",
-    "input": "text",
-    "id": "name",
-    "next": 8
-  },
-  {
-    "step": 8,
-    "text": "Télefono",
-    "placeholder": "612345678",
-    "input": "tel",
-    "minlength": 9,
-    "maxlength": 9,
-    "id": "phone",
-    "next": 9
-  },
-  {
-    "step": 9,
-    "text": "Email",
-    "placeholder": "alguien@ejemplo.com",
-    "input": "email",
-    "id": "email",
-    "next": 10
-  },
-  {
-    "step": 10,
-    "text": "Ciudad",
-    "placeholder": "Escribe o selecciona una opción",
-    "input": "text",
-    "options": [
-      "Madrid",
-      "Barcelona",
-      "Valencia",
-      "Sevilla",
-      "Zaragoza",
-      "Málaga",
-      "Murcia",
-      "Palma",
-      "Las Palmas de Gran Canaria",
-      "Bilbao",
-      "Alicante",
-      "Córdoba",
-      "Valladolid",
-      "Vitoria",
-      "La Coruña",
-      "Granada",
-      "Oviedo",
-      "Santa Cruz de Tenerife",
-      "Pamplona",
-      "Almería",
-      "San Sebastián",
-      "Burgos",
-      "Albacete",
-      "Santander",
-      "Castellón de la Plana",
-      "Logroño",
-      "Badajoz",
-      "Salamanca",
-      "Huelva",
-      "LLeida",
-      "Tarragona",
-      "León",
-      "Cádiz",
-      "Jaén",
-      "Orense",
-      "Girona",
-      "Lugo",
-      "Santiago de Compostela",
-      "Cáceres",
-      "Melilla",
-      "Guadalajara",
-      "Toledo",
-      "Ceuta",
-      "Pontevedra",
-      "Palencia",
-      "Ciudad Real",
-      "Zamora",
-      "Mérida",
-      "Ávila",
-      "Cuenca",
-      "Huesca",
-      "Segovia",
-      "Soria",
-      "Teruel"
-    ],
-    "id": "city",
-    "next": 11
-  },
-  {
-    "step": 11,
-    "text": "Código postal",
-    "placeholder": "Type your answer here...",
-    "input": "tel",
-    "minlength": 5,
-    "maxlength": 5,
-    "id": "postalCode",
-    "next": 12
-  },
-  {
-    "step": 12,
-    "text": "Calle y número",
-    "placeholder": "Type your answer here...",
-    "input": "text",
-    "id": "street",
-    "next": 25
-  },
-  {
-    "step": 13,
-    "text": "¿Qué ofreces?",
-    "placeholder": "Escribe o selecciona aquí tu respuesta...",
-    "input": "text",
-    "id": "offer_type",
-    "options": [
-      "Alimentación",
-      "Batas",
-      "Donaciones Económicas (€)",
-      "Gafas",
-      "Gel desinfectante",
-      "Mentor Empresarial",
-      "Guantes",
-      "Mascarillas",
-      "Materiales (textil, pvc...)",
-      "Mensajería",
-      "Pantallas faciales",
-      "Respiradores"
-    ],
-    "next": 14
-  },
-  {
-    "step": 14,
-    "text": "Cantidad",
-    "placeholder": "Type your answer here...",
-    "input": "number",
-    "id": "offer_quantity",
-    "next": 15
-  },
-  {
-    "step": 15,
-    "text": "Breve explicación o descripción de esta oferta",
-    "placeholder": "Type your answer here...",
-    "input": "text",
-    "id": "offer_description",
-    "next": 19
-  },
-  {
-    "step": 16,
-    "text": "¿Quieres ofrecer otro recurso?",
-    "input": "button",
-    "id": "Otra_oferta_1__c",
-    "options": [
-      {
-        "text": "Si",
+    },
+    {
+        "step": 6,
+        "text": "How much time would each volunteer need to devote to this project?",
+        "placeholder": "Type your answer here...",
+        "input": "number",
+        "id": "hours_week",
+        "next": 7
+    },
+    {
+        "step": 7,
+        "text": "Additional project details",
+        "placeholder": "Website, mission, current status, phases, expected impact",
+        "input": "text",
+        "id": "project_details",
+        "next": 8
+    },
+    {
+        "step": 8,
+        "text": "Who are you?",
+        "placeholder": "Type your answer here...",
+        "input": "text",
+        "id": "contactType",
+        "options": [
+            "Non-profit Organization",
+            "Company",
+            "Individual"
+        ],
+        "next": 9
+    },
+    {
+        "step": 9,
+        "text": "Company name",
+        "placeholder": "Type your answer here...",
+        "input": "text",
+        "id": "company_name",
+        "next": 10
+    },
+    {
+        "step": 10,
+        "text": "Contact person",
+        "placeholder": "Type your answer here...",
+        "input": "text",
+        "id": "company_name",
+        "next": 11
+    },
+    {
+        "step": 11,
+        "text": "Phone number",
+        "placeholder": "612345678",
+        "input": "tel",
+        "minlength": 9,
+        "maxlength": 9,
+        "id": "phone",
+        "next": 12
+    },
+    {
+        "step": 12,
+        "text": "Email",
+        "placeholder": "somebody@example.com",
+        "input": "email",
+        "id": "email",
         "next": 13
-      },
-      {
-        "text": "No",
-        "next": 17
-      }
-    ]
-  },
-  {
-    "step": 17,
-    "text": "¿Quién eres?",
-    "input": "text",
-    "id": "contactType",
-    "options": [
-      "Empresa",
-      "Universidad",
-      "Asociación",
-      "Particular",
-      "Otro"
-    ],
-    "next": 21
-  },
-  {
-    "step": 18,
-    "input": "none",
-    "name": "psicologo",
-    "condition": {
-      "id": "need_type",
-      "value" : "Psicologo"
     },
-    "next": 5
-  },
-  {
-    "step": 19,
-    "input": "none",
-    "name": "donacion",
-    "condition": {
-      "id": "offer_type",
-      "value" : "Donaciones Económicas (€)"
+    {
+        "step": 13,
+        "text": "Country",
+        "placeholder": "Type or select an option",
+        "input": "text",
+        "options": ["Spain","Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","C\u00f4te d'Ivoire","Cabo Verde","Cambodia","Cameroon","Canada","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo (Congo-Brazzaville)","Costa Rica","Croatia","Cuba","Cyprus","Czechia (Czech Republic)","Democratic Republic of the Congo","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini (fmr. \"Swaziland\")","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Holy See","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar (formerly Burma)","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine State","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States of America","Uruguay","Uzbekistan","Vanuatu","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"],
+        "id": "country",
+        "next": 25
     },
-    "next": 16
-  },
-  {
-    "step": 20,
-    "input": "text",
-    "text": "Nombre de la empresa, asociación, universidad u otros",
-    "placeholder": "Type your answer here...",
-    "id": "account",
-    "condition": {
-      "type": "different",
-      "id": "contactType",
-      "value" : "Particular que necesita asistencia"
-    },
-    "next": 7
-  },
-  {
-    "step": 21,
-    "input": "text",
-    "text": "Nombre de la empresa, asociación, universidad u otros",
-    "placeholder": "Type your answer here...",
-    "id": "account",
-    "condition": {
-      "type": "different",
-      "id": "contactType",
-      "value" : "Particular"
-    },
-    "next": 7
-  },
-  {
-    "step": 25,
-    "text": "Do you want to join the Rescue United team and help us maximize our impact?",
-    "input": "button",
-    "id": "join",
-    "options": [
-      {
-        "text": "Yes",
-        "next": -1
-      },
-      {
-        "text": "No",
-        "next": -1
-      }
-    ]
-  }
+    {
+        "step": 25,
+        "text": "Do you want to join the Rescue United team and help us maximize our impact?",
+        "input": "button",
+        "id": "join",
+        "options": [
+            {
+                "text": "Yes",
+                "next": -1
+            },
+            {
+                "text": "No",
+                "next": -1
+            }
+        ]
+    }
 ]
 

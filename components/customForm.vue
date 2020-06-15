@@ -17,6 +17,7 @@
           @click="storeOptionInfo(option)"
         >{{ option.text }}</b-button>
 
+        <img class="step-image" v-if="stepProps.image" :src="stepProps.image"/>
         <b-input
           :key="'input' + stepProps.input + step"
           :list="stepProps.id"
@@ -106,24 +107,20 @@ export default {
     validChallenge: false,
     challenge: undefined,
     formData: {  //TODO needs to be adjusted to new fields
-      tipo: null,
-      offer_type: null,
-      offer_quantity: null,
-      offer_description: null,
-      offers: [],
+      type: null,
+      project_name: null,
+      project_type: null,
+      causes: null,
+      skills: null,
+      hours_week: null,
+      project_details: null,
+      description: null,
       contactType: null,
-      account: null,
-      name: null,
+      company_name: null,
+      contact_name: null,
       phone: null,
       email: null,
-      city: null,
-      postalCode: null,
-      street: null,
-      join: null,
-      needs: [],
-      need_type: null,
-      need_quantity: null,
-      need_description: null
+      country: null
     }
   }),
   mounted() {
@@ -222,24 +219,22 @@ export default {
         this.goToStep(this.stepProps.next);
       }
     },
-    getStock() {
-      return this.formData.tipo === "Ofrezco"
-        ? this.formData.offers.slice(0, 3)
-        : this.formData.needs.slice(0, 3);
-    },
     submitForm() {
       const data = {
-        name: this.formData.name,
-        email: this.formData.email,
-        account: this.formData.account,
-        city: this.formData.city,
-        join: this.formData.join === "Si",
-        phone: this.formData.phone,
-        postalCode: this.formData.postalCode,
-        street: this.formData.street,
+        type: this.formData.type,
+        project_name: this.formData.project_name,
+        project_type: this.formData.project_type,
+        causes: this.formData.causes,
+        skills: this.formData.skills,
+        hours_week: this.formData.hours_week,
+        project_details: this.formData.project_details,
+        description: this.formData.description,
         contactType: this.formData.contactType,
-        challenge: this.challenge,
-        stocks: this.getStock()
+        company_name: this.formData.company_name,
+        contact_name: this.formData.contact_name,
+        phone: this.formData.phone,
+        email: this.formData.email,
+        country: this.formData.country,
       };
 
       //TODO needs to be adjusted to new API
@@ -407,5 +402,9 @@ export default {
 
 .error {
   color: red;
+}
+
+.step-image {
+  margin: 2rem 0;
 }
 </style>

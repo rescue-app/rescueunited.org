@@ -24,7 +24,7 @@
         "text": "What type of tech-based project or initiative would you like to propose?",
         "id": "project_type",
         "placeholder": "Choose as many as you like",
-        "input": "text",
+        "input": "option",
         "options": [
             "1 hour pro bono phone calls",
             "Full-length pro bono projects",
@@ -38,7 +38,7 @@
         "id": "causes",
         "image": "https://images.typeform.com/images/64gAbHHbTfvd/image/default",
         "placeholder": "Choose as many as you like",
-        "input": "text",
+        "input": "option",
         "options": [
             "COVID-19",
             "No Poverty",
@@ -66,7 +66,7 @@
         "text": "What are the skills or expertise you need to complete your project?",
         "id": "skills",
         "placeholder": "Choose as many as you like",
-        "input": "text",
+        "input": "option",
         "options": [
             "Accounting",
             "Account Management",

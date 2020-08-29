@@ -7,7 +7,11 @@
         :class="{'submitted': submittedField}"
       >
         <h5 class="step-title" :key="'text' + step">{{ stepProps.text }}</h5>
-        <h6 class="step-subtitle" v-if="stepProps.subtitle" :key="'subtitle' + step">{{ stepProps.subtitle }}</h6>
+        <h6
+          class="step-subtitle"
+          v-if="stepProps.subtitle"
+          :key="'subtitle' + step"
+        >{{ stepProps.subtitle }}</h6>
 
         <div class="error" v-if="stepProps.error">{{ stepProps.error }}</div>
 
@@ -18,15 +22,16 @@
           @click="storeOptionInfo(option)"
         >{{ option.text }}</b-button>
 
-        <img class="step-image" v-if="stepProps.image" :src="stepProps.image"/>
+        <img class="step-image" v-if="stepProps.image" :src="stepProps.image" />
 
-        <b-form-select :ref="stepProps.id"
-                       v-if="isOptionInput()"
-                       v-model="formData[stepProps.id]"
-                       :options="stepProps.options"
-                       multiple
-                       :select-size="4">
-        </b-form-select>
+        <b-form-select
+          :ref="stepProps.id"
+          v-if="isOptionInput()"
+          v-model="formData[stepProps.id]"
+          :options="stepProps.options"
+          multiple
+          :select-size="4"
+        ></b-form-select>
 
         <b-input
           :key="'input' + stepProps.input + step"
@@ -67,11 +72,8 @@
         class="step-title thanks-wrapper"
       >
         Thank you {{ formData.name }}!
-
         We will contact you as soon as possible to verify and validate your request.
-
         Share Rescue United in your social networks!
-
         #andyou
       </div>
     </transition-group>
@@ -115,12 +117,13 @@ export default {
     displayCaptcha: false,
     validChallenge: false,
     challenge: undefined,
-    formData: {  //TODO needs to be adjusted to new fields
+    formData: {
+      //TODO needs to be adjusted to new fields
       type: null,
       project_name: null,
-      project_type: null,
-      causes: null,
-      skills: null,
+      project_type: [],
+      causes: [],
+      skills: [],
       hours_week: null,
       project_details: null,
       description: null,
@@ -129,8 +132,8 @@ export default {
       contact_name: null,
       phone: null,
       email: null,
-      country: null
-    }
+      country: null,
+    },
   }),
   mounted() {
     this.formDefinition =
@@ -176,6 +179,7 @@ export default {
       this.submittedField = false;
       if (step === -1) {
         this.displayCaptcha = true;
+        // this.submitForm();
         return;
       }
       this.step = step;
@@ -218,8 +222,13 @@ export default {
     },
     storeStepInfo() {
       this.submittedField = true;
-      const isValid = this.$refs[this.stepProps.id].checkValidity();
-      this.$refs[this.stepProps.id].reportValidity();
+      let isValid = false;
+      if (this.stepProps.input !== "option") {
+        isValid = this.$refs[this.stepProps.id].checkValidity();
+        this.$refs[this.stepProps.id].reportValidity();
+      } else {
+        isValid = true;
+      }
       if (isValid) {
         this.formData[this.stepProps.id] = this.$refs[
           this.stepProps.id
@@ -244,10 +253,128 @@ export default {
         email: this.formData.email,
         country: this.formData.country,
       };
+      let payload = {
+        event_type: "form_response",
+        form_response: {
+          definition: {
+            title: `Rescue United (${this.form.toUpperCase()})`,
+          },
+          answers: [
+            {
+              type: "choices",
+              choices: {
+                labels: data.project_type,
+              },
+              field: {
+                type: "multiple_choice",
+                ref: "project_type__c",
+              },
+            },
+            {
+              type: "choices",
+              choices: {
+                labels: data.causes,
+              },
+              field: {
+                type: "multiple_choice",
+                ref: "causes__c",
+              },
+            },
+            {
+              type: "choices",
+              choices: {
+                labels: data.skills,
+              },
+              field: {
+                type: "multiple_choice",
+                ref: "skills__c",
+              },
+            },
+            {
+              type: "number",
+              number: data.hours_week,
+              field: {
+                type: "number",
+                ref: "available_time__c",
+              },
+            },
+            {
+              type: "text",
+              text: data.description,
+              field: {
+                type: "long_text",
+                ref: "profesional_brief__c",
+              },
+            },
+            {
+              type: "choice",
+              choice: {
+                label: data.contactType,
+              },
+              field: {
+                type: "multiple_choice",
+                ref: "who__c",
+              },
+            },
+            {
+              type: "text",
+              text: data.contact_name ? data.contact_name : data.company_name,
+              field: {
+                type: "short_text",
+                ref: "contact__c",
+              },
+            },
+            {
+              type: "phone_number",
+              phone_number: data.phone,
+              field: {
+                type: "phone_number",
+                ref: "contact_phone__c",
+              },
+            },
+            {
+              type: "email",
+              email: data.email,
+              field: {
+                type: "email",
+                ref: "contact_email__c",
+              },
+            },
+            {
+              type: "choice",
+              choice: {
+                label: data.country
+              },
+              field: {
+                type: "dropdown",
+                ref: "contact_country__c",
+              },
+            },
+            {
+              type: "text",
+              text: data.city,
+              field: {
+                type: "short_text",
+                ref: "contact_city__c",
+              },
+            },
+            {
+              type: "boolean",
+              boolean: data.type === 'Continue',
+              field: {
+                type: "yes_no",
+                ref: "join_us__c",
+              },
+            },
+          ],
+        },
+      };
+      // console.log("In submit", payload);
       //TODO needs to be adjusted to new API
-      fetch("https://api.rescueapp.es/request", {
+      fetch("https://script.google.com/macros/s/AKfycbyXtp76kUn2mdazr_8a6GDoDHRdy2JUHHvUKAcC2itjzXV8eksP/exec", {
         method: "POST",
-        body: JSON.stringify(data),
+        mode: 'no-cors',
+        body: JSON.stringify(payload),
         headers: {
           "Content-Type": "application/json"
         }
@@ -290,8 +417,8 @@ export default {
       this.challenge = undefined;
       this.validChallenge = false;
       console.log(error);
-    }
-  }
+    },
+  },
 };
 </script>
 

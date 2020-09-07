@@ -123,7 +123,7 @@ module.exports = {
     },
     recaptcha: {
         hideBadge: false,
-        siteKey: '6Ld3-egUAAAAAFQzBDcoq9OBnjusBOwV8vNKnl7J',
+        siteKey: '6LeP48QZAAAAAIHJY2hVv-rSNy9QQmzeW-W0B0OU',
         version: 2,
         size: 'normal'
     }

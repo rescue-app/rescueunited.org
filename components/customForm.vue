@@ -179,7 +179,6 @@ export default {
       this.submittedField = false;
       if (step === -1) {
         this.displayCaptcha = true;
-        // this.submitForm();
         return;
       }
       this.step = step;
@@ -369,7 +368,9 @@ export default {
           ],
         },
       };
-      // console.log("In submit", payload);
+      this.displayCaptcha = false;
+      this.step = -1;
+      this.addstepProps();
       //TODO needs to be adjusted to new API
       fetch("https://script.google.com/macros/s/AKfycbyXtp76kUn2mdazr_8a6GDoDHRdy2JUHHvUKAcC2itjzXV8eksP/exec", {
         method: "POST",
@@ -378,9 +379,15 @@ export default {
         headers: {
           "Content-Type": "application/json"
         }
-      }).then(response =>
-        response
-          .json()
+      })
+      .then(response => {
+        this.displayCaptcha = false;
+        this.goToStep(-1);
+        resolve(response.json());
+      })
+      .then(response =>
+        {
+          response
           .then(text => ({
             json: text,
             meta: response
@@ -402,6 +409,7 @@ export default {
               this.addstepProps();
             }
           })
+        }
       );
     },
     onSuccess(token) {

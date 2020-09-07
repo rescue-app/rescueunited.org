@@ -172,7 +172,7 @@
         "next": 11
     },
     {
-        "step": 10,
+        "step": 11,
         "text": "Country",
         "placeholder": "Type or select an option",
         "input": "text",

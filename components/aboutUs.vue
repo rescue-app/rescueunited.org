@@ -3,7 +3,7 @@
         <div class="section-head text-center wide-lg">
             <h5 class="subtitle">What do we do?</h5>
             <h2 class="title">About us</h2>
-            <p>
+            <p class="text-left">
                 We are a non-profit organization focused on applying technology to maximize impact solving social problems.
                 <br>
                 Connecting non-profit projects related to the <a href="https://sustainabledevelopment.un.org" target="_blank">Sustainable Development Goals</a> with professionals looking for a purpose and willing to donate their skills and time.

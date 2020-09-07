@@ -12,7 +12,7 @@
       <div class="card-body mt-0 pt-0">
         <nuxt-link to="/current-projects" class="stretched-link" />
         <h5 class="card-title mt-3">Propose a project</h5>
-        <p class="card-text">Propose a tech-based social project related to one or more SDGs</p>
+        <p class="card-text text-left m-3">Propose a tech-based social project related to one or more SDGs</p>
       </div>
     </div>
 
@@ -28,7 +28,7 @@
       <div class="card-body mt-0 pt-0">
         <nuxt-link to="/volunteering" class="stretched-link" />
         <h5 class="card-title mt-3">Volunteers</h5>
-        <p class="card-text">
+        <p class="card-text text-left m-3">
           Create your volunteer profile!
         </p>
       </div>

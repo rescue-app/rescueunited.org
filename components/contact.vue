@@ -77,3 +77,10 @@
         </div>
     </section>
 </template>
+
+<style scoped>
+.blog-text > p{
+    text-align: left;
+    padding-left: 1em;
+}
+</style>

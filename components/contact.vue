@@ -10,12 +10,12 @@
                     <div class="col-md-9 col-lg-4">
                         <div class="blog-item">
                             <div class="text-center pt-4">
-                                <a href="mailto:info@Rescueunited.org">
+                                <a href="mailto:support@Rescueunited.org">
                                     <img width="100px" height="100px" src="~/assets/images/social-badges/mail.png" alt="">
                                 </a>
                             </div>
                             <div class="blog-text">
-                                <h5 class="title"><a href="mailto:info@rescueunited.org">Email</a></h5>
+                                <h5 class="title"><a href="mailto:support@rescueunited.org">Email</a></h5>
                                 <p>If the form does not cover your need, you find some problem or something else strange!</p>
                             </div>
                         </div>

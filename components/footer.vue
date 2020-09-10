@@ -10,7 +10,7 @@
                                 <p>#andyou</p>
                             </div>
                             <ul class="wgs-social">
-                                <li><a href="mailto:info@rescueunited.org"><em class="icon ni ni-mail-fill"></em></a></li>
+                                <li><a href="mailto:support@rescueunited.org"><em class="icon ni ni-mail-fill"></em></a></li>
                                 <li><a href="https://www.instagram.com/rescue_united/"><em class="icon ni ni-instagram"></em></a></li>
                                 <li><a href="https://www.linkedin.com/company/rescue-united"><em class="icon ni ni-linkedin"></em></a></li>
                                 <li><a href="https://www.twitter.com/rescueunitedorg"><em class="icon ni ni-twitter"></em></a></li>

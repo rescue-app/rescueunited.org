@@ -28,8 +28,8 @@
                             <h3 class="title mb-0 text-center">JOIN OUR TEAM</h3>
                             <p class="lead mb-0 text-center">Complete the following form and join our remote network of volunteers!</p>
                             <p class="text-center">Tell us if you are interested in a specific project or not, and we will contact you as soon as there is match! Be ready to put your talent in action!  :)</p>
-                            <!-- <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/ErFKVZ" /> -->
-                            <custom-form form="volunteer"></custom-form>
+                            <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/ErFKVZ" />
+                            <!-- <custom-form form="volunteer"></custom-form> -->
                         </div>
                     </div>
                 </div>

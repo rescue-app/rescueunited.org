@@ -11,8 +11,8 @@
                 We are a non-profit organization focused on applying technology to maximize impact solving social problems.
                 Complete the following form with the details of your project.
               </p>
-              <!-- <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/JkDG5C" /> -->
-              <custom-form form="project"></custom-form>
+              <Typeform class="w-100 mb-3" style="height: 500px" :hide-headers="true" :hide-footer="true" :opacity="0" :on-submit="onSubmit" url="https://info548263.typeform.com/to/JkDG5C" />
+              <!-- <custom-form form="project"></custom-form> -->
             </div>
           </div>
         </div>

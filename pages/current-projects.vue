@@ -8,9 +8,6 @@
                         <div class="text-block">
                             <h3 class="title text-center">CURRENT PROJECTS</h3>
                             <p class="lead mb-0 text-center">These are our current projects. You can <strong><nuxt-link to="/propose-a-project">propose a new one</nuxt-link></strong>, or <strong><nuxt-link to="/volunteering">sign up as a volunteer</nuxt-link></strong></p>
-
-                            <div class="text-block">
-                                <p>
                                     <table style="width:800px; border: 0px; margin-left:auto; margin-right:auto; padding:20px; border-spacing:20px"
                                         <tr>
                                             <th>Rescue app</th>
@@ -45,38 +42,7 @@
 
                                         </tr>
                                     </table>
-
-
-
-
-
-
-
-                            <div class="col" v-if="loading">
-                                <div class="spinner-border spinner-border-sm" role="status"></div>&nbsp;
-                                <span class="font-weight-bold">Loading...</span>
-                            </div>
-
-                            <div v-else>
-                                <div v-for="project in projects" :key="project.id" class="search-result">
-                                    <h6 class="mb-1 text-uppercase"><small><strong>{{ project.country }}</strong></small></h6>
-                                    <p>
-                                        <span v-for="cause in project.causes" :key="cause">
-                                            <b-badge variant="info">{{ cause }}</b-badge>&nbsp;
-                                        </span>
-                                    </p>
-                                    <h4 class="mb-0 text-dark">{{ project.title }}</h4>
-                                    <p class="text-dark">{{ project.projectBrief }}</p>
-                                    <p>
-                                        <small>
-                                            <span v-for="skill in project.skills" :key="skill">
-                                                <b-badge variant="light" class="text-info m-0 p-0">{{ skill }}</b-badge>&nbsp;
-                                            </span>
-                                        </small>
-                                    </p>
                                     
-                                </div>
-                            </div>
 
                         </div>
                     </div>

@@ -32,6 +32,8 @@
                                         <td style="vertical-align: top">MindBerry works as a technology platform for psychotherapy, counselling and coaching.n</td>
                                     </tr>
                                     <br>
+                                </table>
+                                <table border="0" class="text-dark" cellspacing="10px" style="table-layout: fixed; width: 100%;" align="top" valign="top" >
                                     <tr>
                                         <td class="title-name"><b>THE BLACK EXCELLENCE NETWORK</b></td>
                                         <td class="title-name"><b>DIGITAL HORIZON</b></td>
@@ -51,6 +53,8 @@
                                         <td style="vertical-align: top;">E-health project to combat confinement issues with physiotherapy.</td>
                                     </tr>
                                     <br>
+                                </table>
+                                <table border="0" class="text-dark" cellspacing="10px" style="table-layout: fixed; width: 100%;" align="top" valign="top" >
                                     <tr>
                                         <td class="title-name"><b>HELPUP</b></td>
                                         <td class="title-name"><b>CALMTAG</b></td>
@@ -146,5 +150,16 @@ td
 }
 .title-name {
     padding-top:25px;
+}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    td:nth-of-type(2) { display: none; }
+    td:nth-of-type(3) { display: none; }
+    td:nth-of-type(5) { display: none; }
+    td:nth-of-type(6) { display: none; }
+    td:nth-of-type(8) { display: none; }
 }
 </style>
